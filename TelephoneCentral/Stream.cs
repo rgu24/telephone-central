@@ -46,7 +46,7 @@ namespace TelephoneCentral
         {
             return frequency;
         }
-        public Distribution getCallLengthistribution()
+        public Distribution getCallLengthDistribution()
         {
             return callLengthDistribution;
         }
@@ -54,6 +54,5 @@ namespace TelephoneCentral
         {
             return name;
         }    
-    }
     }
 }

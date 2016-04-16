@@ -1,0 +1,5 @@
+Name of the system: CENTRALA
+Probability of missed calls in StreamST1 is: 93,35%
+Avrege Usability of channels: 96,32%
+Avrege usability of waiting queue: nie jest liczbą%
+Avreage Time of service: 96,32 ms

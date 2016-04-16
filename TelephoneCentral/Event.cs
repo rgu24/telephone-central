@@ -12,6 +12,7 @@ namespace TelephoneCentral
         T data;
         int whichStream;
         double executionTime;
+        double callLength;
         double timeOfArrival=0;
       public int size = 1;//how many links call requires
        public Event()
@@ -19,13 +20,14 @@ namespace TelephoneCentral
 
         }
         
-        public Event(T d, double c,int t,int str,double cp,int roz)
+        public Event(T d, double c,int t,int str,double cp,int roz,double cl)
         {
             type = t;
             data = d;
             executionTime = c;
             whichStream = str;
             timeOfArrival=cp;
+            callLength = cl;
             size = roz;
          
         }
@@ -52,12 +54,12 @@ namespace TelephoneCentral
        {
            return executionTime;
        }
-
+        
        public Call<T> ToCall()
  
        {
            Call<T> zgl=new Call<T>();
-           zgl.add(executionTime, data,whichStream,timeOfArrival,size);
+           zgl.add(callLength, data,whichStream,timeOfArrival,size);
            return zgl;
        }
        public int getStream()

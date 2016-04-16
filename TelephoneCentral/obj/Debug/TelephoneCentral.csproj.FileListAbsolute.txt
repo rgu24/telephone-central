@@ -1,1 +1,6 @@
 C:\Users\Rafal\Desktop\Programowanie\TelephoneCentral\TelephoneCentral\bin\Debug\TelephoneCentral.exe.config
+C:\Users\Rafal\Desktop\Programowanie\TelephoneCentral\TelephoneCentral\bin\Debug\TelephoneCentral.exe
+C:\Users\Rafal\Desktop\Programowanie\TelephoneCentral\TelephoneCentral\bin\Debug\TelephoneCentral.pdb
+C:\Users\Rafal\Desktop\Programowanie\TelephoneCentral\TelephoneCentral\obj\Debug\TelephoneCentral.exe
+C:\Users\Rafal\Desktop\Programowanie\TelephoneCentral\TelephoneCentral\obj\Debug\TelephoneCentral.pdb
+C:\Users\Rafal\Desktop\Programowanie\TelephoneCentral\TelephoneCentral\obj\Debug\TelephoneCentral.csprojResolveAssemblyReference.cache

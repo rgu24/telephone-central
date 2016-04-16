@@ -24,5 +24,4 @@ namespace TelephoneCentral
         public string getName() { return name; }
 
     }
-    }
 }

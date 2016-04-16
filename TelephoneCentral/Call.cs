@@ -10,7 +10,7 @@ namespace TelephoneCentral
     {
         
         
-        public double possTimeWaiting;
+        public double callLength;
        private int streamNum;
        public double arrivalTime;
         private T data;
@@ -20,7 +20,7 @@ namespace TelephoneCentral
        public void add(double cz,T n,int str,double czasp,int roz)
         {
             data = n;
-            possTimeWaiting = cz;
+            callLength = cz;
             streamNum = str;
             arrivalTime = czasp;
             size = roz;
@@ -29,14 +29,14 @@ namespace TelephoneCentral
         }
        public void add(double cz,int str,double czasp,int roz)
        {
-           possTimeWaiting = cz;
+           callLength = cz;
            streamNum = str;
            arrivalTime = czasp;
            size = roz;
        }
-       public double getPossTimeWaiting()
+       public double getCallLength()
        {
-           return possTimeWaiting;
+           return callLength;
        }
         public T getData()
         {
@@ -46,6 +46,15 @@ namespace TelephoneCentral
        public int getStreamNum()
        {
            return streamNum;
+       }
+        public Boolean Equals(Call<T> call)
+       {
+
+           if (this.size == call.size && this.streamNum == call.streamNum && this.arrivalTime == call.arrivalTime && this.callLength == call.callLength)
+               return true;
+           else
+               return false;
+
        }
        
 
